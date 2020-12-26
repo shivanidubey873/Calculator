@@ -1,0 +1,114 @@
+/* CSS RESET */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* body */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* calculator */
+
+.container {
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+
+
+/* result */
+
+#result {
+    color: white;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+}
+
+
+/* first row */
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row1 button {
+    flex-basis: 25%;
+}
+
+.row1 #cancel {
+    flex-grow: 2;
+}
+
+
+/* second row */
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row2 button {
+    flex-basis: 25%;
+}
+
+
+/* third row */
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row3 button {
+    flex-basis: 25%;
+}
+
+
+/* fourth row */
+
+.row4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row4 button {
+    flex-basis: 25%;
+}
+
+
+/* fifth row */
+
+.row5 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row5 button {
+    flex-basis: 25%;
+}
+
+.row5 #zero {
+    flex-grow: 3;
+}
+
+
+/* button */
+
+button {
+    border-width: 3px;
+}
+
+.second {
+    background-color: #df974c;
+    color: white;
+}
